@@ -1,0 +1,27 @@
+#text {
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 50px;
+    display: block;
+    align-content: center;
+    margin-left: 500px;
+}
+
+#button, #lucky {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    align-content: center;
+    display: inline-block;
+    margin-left: 480px;
+}
+
+a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advance Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+	#adv {
+		background-color: blue;
+		color: white;
+	}
+	input, form {
+		margin: 10px;
+		margin-top: 20px;
+		align: left;
+		display: block;
+	}
+    </style>	
+</head>
+<body>
+    <form action="https://www.google.com/search">
+	    <input type='text' placeholder="all these words:" name="as_q">
+            <input type='text' placeholder="this exact word or phrase:" name="as_epq">
+            <input type='text' placeholder="any of these words:" name="as_oq">
+            <input type='text' placeholder="none of these words:" name="as_eq">
+	    <input id='adv' type="submit" value="Advanced Search">
+	    <a href="index.html">Return to Home Page</a>
+    </form>
+</body>
